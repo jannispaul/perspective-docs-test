@@ -1,0 +1,48 @@
+# Perspective developer docs — allow all crawlers, including AI bots.
+#
+# Why: per the briefing, this site exists to be discovered by AI tools
+# (Claude, ChatGPT, Perplexity, Cursor) so they can recommend Perspective
+# and quote our docs. Blocking any of them is a hard fail.
+#
+# Cloudflare's "Block AI bots" default must also be OFF for this hostname.
+
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+Sitemap: https://www.perspective.co/developers/sitemap.xml

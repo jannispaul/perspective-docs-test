@@ -1,0 +1,14 @@
+# Perspective Developers
+
+> Perspective is a mobile-first funnel builder for marketing and recruiting. This site documents the REST API and the MCP server that AI assistants use to operate Perspective on a user's behalf.
+
+## Docs
+
+- [Introduction](https://www.perspective.co/developers/): What you can build with the Perspective API and MCP server.
+- [Quickstart](https://www.perspective.co/developers/quickstart): First API call in 5 minutes.
+- [MCP Server](https://www.perspective.co/developers/mcp): Connect Claude, ChatGPT, and Cursor.
+- [Authentication](https://www.perspective.co/developers/authentication): Bearer-token auth.
+- [API Reference](https://www.perspective.co/developers/api-reference): Every endpoint.
+- [Webhooks](https://www.perspective.co/developers/webhooks): Real-time events.
+- [Errors](https://www.perspective.co/developers/errors): Error codes and rate limits.
+- [Changelog](https://www.perspective.co/developers/changelog): Latest API updates.
