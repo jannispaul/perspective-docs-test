@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "buildTime": "2026-06-03T07:59:00.833Z",
+  "docCount": 49,
+  "serverName": "perspective-docs",
+  "baseUrl": "https://developers.perspective.co",
+  "indexers": [
+    "flexsearch"
+  ]
+}
